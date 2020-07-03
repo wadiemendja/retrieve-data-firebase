@@ -19,7 +19,7 @@
           var username = document.getElementById("username");
           var password = document.getElementById("pass");
           if (username.value==loginInfo.username && password.value==loginInfo.password){
-            location.replace("retrieve-data-firebase/home.html");
+            location.replace("/home.html");
           }else if(username.value!=loginInfo.username){
             username.style.borderColor="red";
           }else if(password.value!=loginInfo.password){
