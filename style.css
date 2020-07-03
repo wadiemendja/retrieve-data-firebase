@@ -1,0 +1,28 @@
+    #panel{
+      border: solid #6c757d 3px;
+      border-radius: 3px;
+      margin-top: 50px;
+      display: inline-block;
+      padding: 20px;
+      width: 30%;
+    }
+    #panel * {display: block; padding: 2px;}
+    #panel h2{color: #6c757d;}
+    #panel button{
+      margin-left: auto;
+      margin-right: auto;
+      width: 100%;
+      margin-top: 5px;
+    }
+    #panel input{  
+      width: 100%;
+      padding: 12px 20px;
+      margin: 8px 0;
+      display: inline-block;
+      border: 2px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      color: #6c757d;
+  }
+  #panel label{float: left;}
+  #panel svg{width: 20%;height: 20%;color: #6c757d;}
